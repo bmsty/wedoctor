@@ -1,0 +1,144 @@
+@media (min-width: 1200px) 
+{ 
+	.howtobooking
+	{
+		width: 100%;
+		border: 3px solid white;
+		box-sizing: border-box;
+		margin-bottom: 8px;
+		padding: 0;
+	}
+
+	.howtobooking-row h1
+	{
+		margin: auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		font-size: 28px;
+		font-style: italic;
+		color: #E62A3D;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.howtobooking-colom img
+	{
+		width: 100%;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) 
+{ 
+	.howtobooking
+	{
+		width: 100%;
+		border: 3px solid white;
+		box-sizing: border-box;
+		margin-bottom: 8px;
+		padding: 0;
+	}
+
+	.howtobooking-row h1
+	{
+		margin: auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		font-size: 24px;
+		font-style: italic;
+		color: #E62A3D;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.howtobooking-colom img
+	{
+		width: 100%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) 
+{ 
+	.howtobooking
+	{
+		width: 100%;
+		border: 3px solid white;
+		box-sizing: border-box;
+		margin-bottom: 8px;
+		padding: 0;
+	}
+
+	.howtobooking-row h1
+	{
+		margin: auto;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		font-size: 22px;
+		font-style: italic;
+		color: #E62A3D;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.howtobooking-colom img
+	{
+		width: 100%;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767px) 
+{ 
+	.howtobooking
+	{
+		width: 100%;
+		border: 3px solid white;
+		box-sizing: border-box;
+		margin-bottom: 6px;
+		padding: 0;
+	}
+
+	.howtobooking-row h1
+	{
+		margin: auto;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		font-size: 18px;
+		font-style: italic;
+		color: #E62A3D;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.howtobooking-colom img
+	{
+		width: 100%;
+	}
+}
+
+@media (max-width: 575px) 
+{ 
+	.howtobooking
+	{
+		width: 100%;
+		border: 3px solid white;
+		box-sizing: border-box;
+		margin-bottom: 6px;
+		padding: 0;
+	}
+
+	.howtobooking-row h1
+	{
+		margin: auto;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		font-size: 18px;
+		font-style: italic;
+		color: #E62A3D;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.howtobooking-colom img
+	{
+		width: 100%;
+	}
+}

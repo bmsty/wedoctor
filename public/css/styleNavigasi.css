@@ -1,0 +1,641 @@
+.akun 
+{
+	z-index: 100;
+}
+
+.container-navigasi
+{
+	padding: 0;
+}
+
+
+@media (min-width: 1200px) 
+{ 
+	.navbar
+	{
+		width: 100%;
+		background-image: url(../img/navigasi/background.png);
+		box-sizing: border-box;
+		margin-bottom: 8px;
+	}
+
+	.nav-atas
+	{
+		margin-bottom: 0;
+		border-left: 3px solid white;
+		border-right: 3px solid white;
+		border-top: 3px solid white;
+		box-sizing: border-box;
+		border-bottom: 0px;
+	}
+
+	.nav-bawah
+	{
+		margin-top: 0;
+		border-left: 3px solid white;
+		border-right: 3px solid white;
+		border-bottom: 3px solid white;
+		box-sizing: border-box;
+		border-top: 0;
+	}
+
+	.nav-link
+	{
+		font-size: 20px;
+		font-weight: bold;
+		color: grey;
+	}
+
+	.nav-link:hover
+	{
+		color: #E62A3D;
+	}
+
+	.nav-item:hover
+	{
+		background: white;
+		transition: 0.9s;
+	}
+
+	.aktif
+	{
+		border-bottom: 6px dotted black;
+		box-sizing: border-box;
+		height: 45px;
+		color: #E62A3D;
+	}
+
+	.akun ul
+	{
+	    list-style: none; /*biar ga ada buletan urutan di ul*/
+	    margin: 0;
+	    padding: 0;
+	    position: relative; /*brada di atasnya*/
+	}
+	
+	.akun ul li
+	{
+		float: right;
+		line-height: 35px; /*biar posisinya vertical tengah*/
+		list-style: none;
+	}
+
+	.akun ul:after /* Clear fix setelah ul */
+	{
+	    content: "";
+	    clear: both;
+	    display: block;
+	}
+
+	.akun ul ul /* Untuk bikin list anakan biar jadi satu dengan parent */
+	{
+		display: none;
+		background-image: url(../img/navigasi/dropdown.png);
+		padding: 0;
+		margin: 0;
+		position: absolute;
+		top: 100%;
+		box-sizing: border-box;
+	}
+
+	.akun ul li:hover > ul /* Untuk setelah mouse di dekatkan muncul anaknya */
+	{
+	  	display: block;
+	}
+
+	.akun ul li:hover /* Ketika mouse dekat maka */
+	{
+	    transition: 0.9s;
+	}
+
+	.akun ul ul li /* Untuk bikin anaknya menurun (bukan mendatar) */
+	{
+	    float: left;
+	    position: relative;
+	    width: 111px;
+	    height: 45px;
+	    border: 5px dotted white;
+	    box-sizing: border-box;
+	}
+
+	.akun ul ul li a
+	{
+	    font-size: 16px;
+	    font-weight: bold;
+	    color: grey;
+	    text-align: left;
+	}
+
+	.akun ul ul li:hover /* Ketika mouse dekat maka */
+	{
+		background-color: white;
+		border: 5px dotted #E62A3D;
+	    transition: 0.9s;
+	}
+
+	.akun ul ul li a:hover
+	{
+	  	transition;
+	  	text-decoration: none;
+	  	color: #E62A3D;
+	}
+
+	.icon
+	{
+		width: 18px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) 
+{ 
+	.navbar
+	{
+		width: 100%;
+		background-image: url(../img/navigasi/background.png);
+		box-sizing: border-box;
+		margin-bottom: 8px;
+	}
+
+	.nav-atas
+	{
+		margin-bottom: 0;
+		border-left: 3px solid white;
+		border-right: 3px solid white;
+		border-top: 3px solid white;
+		box-sizing: border-box;
+		border-bottom: 0px;
+	}
+
+	.nav-bawah
+	{
+		margin-top: 0;
+		border-left: 3px solid white;
+		border-right: 3px solid white;
+		border-bottom: 3px solid white;
+		box-sizing: border-box;
+		border-top: 0;
+	}
+
+	.navbar-brand img
+	{
+		width: 300px;
+	}
+
+	.nav-link
+	{
+		font-size: 16px;
+		font-weight: bold;
+		color: grey;
+	}
+
+	.nav-link img
+	{
+		width: 60px;
+	}
+
+	.nav-link:hover
+	{
+		color: #E62A3D;
+	}
+
+	.nav-item:hover
+	{
+		background: white;
+		box-sizing: border-box;
+		transition: 0.9s;
+	}
+
+	.aktif
+	{
+		border-bottom: 6px dotted black;
+		box-sizing: border-box;
+		height: 38px;
+		color: #E62A3D;
+	}
+
+	.akun ul
+	{
+	    list-style: none; /*biar ga ada buletan urutan di ul*/
+	    margin: 0;
+	    padding: 0;
+	    position: relative; /*brada di atasnya*/
+	}
+	
+	.akun ul li
+	{
+		float: right;
+		line-height: 30px; /*biar posisinya vertical tengah*/
+		list-style: none;
+	}
+
+	.akun ul:after /* Clear fix setelah ul */
+	{
+	    content: "";
+	    clear: both;
+	    display: block;
+	}
+
+	.akun ul ul /* Untuk bikin list anakan biar jadi satu dengan parent */
+	{
+		display: none;
+		background-image: url(../img/navigasi/dropdown.png);
+		padding: 0;
+		margin: 0;
+		position: absolute;
+		top: 100%;
+		box-sizing: border-box;
+	}
+
+	.akun ul li:hover > ul /* Untuk setelah mouse di dekatkan muncul anaknya */
+	{
+	  	display: block;
+	}
+
+	.akun ul li:hover /* Ketika mouse dekat maka */
+	{
+	    transition: 0.9s;
+	}
+
+	.akun ul ul li /* Untuk bikin anaknya menurun (bukan mendatar) */
+	{
+	    float: left;
+	    position: relative;
+	    width: 91px;
+	    border: 5px dotted white;
+	    box-sizing: border-box;
+	}
+
+	.akun ul ul li a
+	{
+	    font-size: 12px;
+	    font-weight: bold;
+	    color: grey;
+	    text-align: left;
+	}
+
+	.akun ul ul li:hover /* Ketika mouse dekat maka */
+	{
+		background-color: white;
+		border: 3px dotted #E62A3D;
+	    transition: 0.9s;
+	    box-sizing: border-box;
+	}
+
+	.akun ul ul li a:hover
+	{
+	  	transition;
+	  	text-decoration: none;
+	  	color: #E62A3D;
+	}
+
+	.icon
+	{
+		width: 16px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) 
+{ 
+	.navbar
+	{
+		width: 100%;
+		background-image: url(../img/navigasi/background.png);
+		box-sizing: border-box;
+		margin-bottom: 8px;
+	}
+
+	.nav-atas
+	{
+		margin-bottom: 0;
+		border-left: 3px solid white;
+		border-right: 3px solid white;
+		border-top: 3px solid white;
+		box-sizing: border-box;
+		border-bottom: 0px;
+	}
+
+	.nav-bawah
+	{
+		margin-top: 0;
+		border-left: 3px solid white;
+		border-right: 3px solid white;
+		border-bottom: 3px solid white;
+		box-sizing: border-box;
+		border-top: 0;
+	}
+
+	.navbar-brand img
+	{
+		width: 250px;
+	}
+
+	.nav-link
+	{
+		font-size: 14px;
+		font-weight: bold;
+		color: grey;
+	}
+
+	.nav-link img
+	{
+		width: 60px;
+	}
+
+	.nav-link:hover
+	{
+		color: #E62A3D;
+	}
+
+	.nav-item:hover
+	{
+		background: white;
+		box-sizing: border-box;
+		transition: 0.9s;
+	}
+
+	.aktif
+	{
+		border-bottom: 6px dotted black;
+		box-sizing: border-box;
+		height: 35px;
+		color: #E62A3D;
+	}
+
+	.akun ul
+	{
+	    list-style: none; /*biar ga ada buletan urutan di ul*/
+	    margin: 0;
+	    padding: 0;
+	    position: relative; /*brada di atasnya*/
+	}
+	
+	.akun ul li
+	{
+		float: right;
+		line-height: 30px; /*biar posisinya vertical tengah*/
+		list-style: none;
+	}
+
+	.akun ul:after /* Clear fix setelah ul */
+	{
+	    content: "";
+	    clear: both;
+	    display: block;
+	}
+
+	.akun ul ul /* Untuk bikin list anakan biar jadi satu dengan parent */
+	{
+		display: none;
+		background-image: url(../img/navigasi/dropdown.png);
+		padding: 0;
+		margin: 0;
+		position: absolute;
+		top: 100%;
+		box-sizing: border-box;
+	}
+
+	.akun ul li:hover > ul /* Untuk setelah mouse di dekatkan muncul anaknya */
+	{
+	  	display: block;
+	}
+
+	.akun ul li:hover /* Ketika mouse dekat maka */
+	{
+	    transition: 0.9s;
+	}
+
+	.akun ul ul li /* Untuk bikin anaknya menurun (bukan mendatar) */
+	{
+	    float: left;
+	    position: relative;
+	    width: 92px;
+	    border: 5px dotted white;
+	    box-sizing: border-box;
+	}
+
+	.akun ul ul li a
+	{
+	    font-size: 10px;
+	    font-weight: bold;
+	    color: grey;
+	    text-align: left;
+	}
+
+	.akun ul ul li:hover /* Ketika mouse dekat maka */
+	{
+		background-color: white;
+		border: 3px dotted #E62A3D;
+	    transition: 0.9s;
+	    box-sizing: border-box;
+	}
+
+	.akun ul ul li a:hover
+	{
+	  	transition;
+	  	text-decoration: none;
+	  	color: #E62A3D;
+	}
+
+	.icon
+	{
+		width: 6px;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767px) 
+{ 
+	 .navbar
+	{
+		width: 100%;
+		background-image: url(../img/navigasi/background.png);
+		box-sizing: border-box;
+		margin-bottom: 8px;
+	}
+
+	.nav-atas
+	{
+		margin-bottom: 0;
+		border-left: 3px solid white;
+		border-right: 3px solid white;
+		border-top: 3px solid white;
+		box-sizing: border-box;
+		border-bottom: 0px;
+	}
+
+	.nav-bawah
+	{
+		margin-top: 0;
+		border-left: 3px solid white;
+		border-right: 3px solid white;
+		border-bottom: 3px solid white;
+		box-sizing: border-box;
+		border-top: 0;
+	}
+
+	.navbar-brand img
+	{
+		width: 250px;
+	}
+
+	.nav-link
+	{
+		font-size: 14px;
+		font-weight: bold;
+		color: grey;
+	}
+
+	.nav-link img
+	{
+		width: 60px;
+	}
+
+	.nav-link:hover
+	{
+		color: #E62A3D;
+	}
+
+	.nav-item:hover
+	{
+		background: white;
+		box-sizing: border-box;
+		transition: 0.9s;
+	}
+
+	.aktif
+	{
+		box-sizing: border-box;
+		height: 37px;
+		color: #E62A3D;
+	}
+
+	.akun ul
+	{
+	    list-style: none; /*biar ga ada buletan urutan di ul*/
+	    margin: 0;
+	    padding: 0;
+	    position: relative; /*brada di atasnya*/
+	}
+	
+	.akun ul li
+	{
+		float: right;
+		line-height: 30px; /*biar posisinya vertical tengah*/
+		list-style: none;
+	}
+
+	.akun ul:after /* Clear fix setelah ul */
+	{
+	    content: "";
+	    clear: both;
+	    display: block;
+	}
+
+	.akun ul ul /* Untuk bikin list anakan biar jadi satu dengan parent */
+	{
+		display: none;
+		background-image: url(../img/navigasi/dropdown.png);
+		padding: 0;
+		margin: 0;
+		position: absolute;
+		top: 100%;
+		box-sizing: border-box;
+	}
+
+	.akun ul li:hover > ul /* Untuk setelah mouse di dekatkan muncul anaknya */
+	{
+	  	display: block;
+	}
+
+	.akun ul li:hover /* Ketika mouse dekat maka */
+	{
+	    transition: 0.9s;
+	}
+
+	.akun ul ul li /* Untuk bikin anaknya menurun (bukan mendatar) */
+	{
+	    float: left;
+	    position: relative;
+	    width: 92px;
+	    border: 5px dotted white;
+	    box-sizing: border-box;
+	}
+
+	.akun ul ul li a
+	{
+	    font-size: 10px;
+	    font-weight: bold;
+	    color: grey;
+	    text-align: left;
+	}
+
+	.akun ul ul li:hover /* Ketika mouse dekat maka */
+	{
+		background-color: white;
+		border: 3px dotted #E62A3D;
+	    transition: 0.9s;
+	    box-sizing: border-box;
+	}
+
+	.akun ul ul li a:hover
+	{
+	  	transition;
+	  	text-decoration: none;
+	  	color: #E62A3D;
+	}
+
+	.icon
+	{
+		width: 6px;
+	}
+
+	.navbar-toggler
+	{
+
+		padding: 0;
+		width: 40px;
+		height: 30px; 
+	}
+
+	.navbar-toggler-icon
+	{
+		color: #E62A3D;
+		margin: 0;
+		width: 20px;
+		height: 25px; 
+	}
+}
+
+@media (max-width: 575px) 
+{ 
+	.navbar
+	{
+		width: 100%;
+		background-image: url(../img/navigasi/background.png);
+		box-sizing: border-box;
+		margin-bottom: 8px;
+	}
+
+	.nav-hp
+	{
+		margin-top: 0;
+		border: 3px solid white;
+		box-sizing: border-box;
+	}
+
+	.border-atas
+	{
+		border-top: 2px solid black;
+	}
+
+	.nav-link
+	{
+		font-size: 14px;
+		font-weight: bold;
+		color: grey;
+	}
+
+	.aktif
+	{
+		color: #E62A3D;
+	}
+}

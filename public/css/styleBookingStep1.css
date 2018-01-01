@@ -1,0 +1,731 @@
+.btn
+{
+	border: 1px solid black;
+	margin-top:15px;
+	width: 260px;
+}
+
+@media (min-width: 1200px) 
+{ 
+	.final-booking
+	{
+		width: 100%;
+		border: 3px solid white;
+		min-height: 250px;
+		box-sizing: border-box;
+		margin-bottom: 8px;
+		background-image: url(../img/about/about.png);
+		background-size:cover;
+		background-position:center;
+		background-repeat:no-repeat;
+	}
+
+	.header-booking-final
+	{
+		padding: 25px;
+		padding-left: 80px;
+		padding-right: 80px;
+	}
+
+	.header-booking-final h1
+	{
+		font-size: 28px;
+		font-style: italic;
+		color: #E62A3D;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.final-booking-row
+	{
+		height: 100px;
+	}
+
+	.pertama
+	{
+		padding: 0;
+		width: 75px;
+		height: 75px;
+		background-color: #E62A3D;
+	}
+
+	.kedua
+	{
+		padding: 0;
+		width: 75px;
+		height: 75px;
+		background-color: grey;
+	}
+
+	.ketiga
+	{
+		padding: 0;
+		width: 75px;
+		height: 75px;
+		background-color: grey;
+	}
+
+	.garis-booking1
+	{
+		padding: 0;
+		width: 100px;
+		height: 10px;
+		background-color: grey;
+	}
+
+	.garis-booking2
+	{
+		padding: 0;
+		width: 100px;
+		height: 10px;
+		background-color: grey;
+	}
+
+	.angka
+	{
+		font-size: 26px;
+		font-weight: bold;
+		color: white;
+		margin-top: 21.5px;
+		margin-bottom: 21.5px;
+	}
+
+	.final-booking-row-content
+	{
+		min-height: 250px;
+		padding: 35px;
+	}
+
+	.form-pasien
+	{
+		margin-left: 15px;
+		margin-bottom: 0;
+		font-size: 20px;
+		font-style: italic;
+		color: #E62A3D;
+		font-weight: bold;
+	}
+
+	.form-pasien-p
+	{
+		margin-left: 15px;
+	}
+
+	.garis-content
+	{
+		border: 0 solid #E62A3D;
+		border-width: 1px 0 0 0;
+		border-radius: 20px;
+		height: 30px;
+		margin-bottom: 0;
+	}
+
+	.garis-content:before
+	{
+		display: block;
+		content: "";
+		margin-top: -31px;
+		border: 0 solid #E62A3D;
+		border-width: 0 0 1px 0;
+		border-radius: 20px;
+		height: 30px;
+	}
+
+	.padding-booking
+	{
+		padding: 15px;
+	}
+
+	.j-k-margin
+	{
+		margin-top: 32px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) 
+{ 
+	.final-booking
+	{
+		width: 100%;
+		border: 3px solid white;
+		min-height: 250px;
+		box-sizing: border-box;
+		margin-bottom: 8px;
+		background-image: url(../img/about/about.png);
+		background-size:cover;
+		background-position:center;
+		background-repeat:no-repeat;
+	}
+
+	.header-booking-final
+	{
+		padding: 25px;
+		padding-left: 80px;
+		padding-right: 80px;
+	}
+
+	.header-booking-final h1
+	{
+		font-size: 24px;
+		font-style: italic;
+		color: #E62A3D;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.final-booking-row
+	{
+		height: 100px;
+	}
+
+	.pertama
+	{
+		padding: 0;
+		width: 65px;
+		height: 65px;
+		background-color: #E62A3D;
+	}
+
+	.kedua
+	{
+		padding: 0;
+		width: 65px;
+		height: 65px;
+		background-color: grey;
+	}
+
+	.ketiga
+	{
+		padding: 0;
+		width: 65px;
+		height: 65px;
+		background-color: grey;
+	}
+
+	.garis-booking1
+	{
+		padding: 0;
+		width: 85px;
+		height: 10px;
+		background-color: grey;
+	}
+
+	.garis-booking2
+	{
+		padding: 0;
+		width: 85px;
+		height: 10px;
+		background-color: grey;
+	}
+
+	.angka
+	{
+		font-size: 24px;
+		font-weight: bold;
+		color: white;
+		margin-top: 18px;
+		margin-bottom: 18.5px;
+	}
+
+	.final-booking-row-content
+	{
+		min-height: 250px;
+		padding: 35px;
+	}
+
+	.form-pasien
+	{
+		margin-left: 15px;
+		margin-bottom: 0;
+		font-size: 18px;
+		font-style: italic;
+		color: #E62A3D;
+		font-weight: bold;
+	}
+
+	.form-pasien-p
+	{
+		margin-left: 15px;
+		font-size: 16px;
+	}
+
+	.garis-content
+	{
+		border: 0 solid #E62A3D;
+		border-width: 1px 0 0 0;
+		border-radius: 20px;
+		height: 30px;
+		margin-bottom: 0;
+	}
+
+	.garis-content:before
+	{
+		display: block;
+		content: "";
+		margin-top: -31px;
+		border: 0 solid #E62A3D;
+		border-width: 0 0 1px 0;
+		border-radius: 20px;
+		height: 30px;
+	}
+
+	.padding-booking
+	{
+		padding: 15px;
+	}
+
+	.j-k-margin
+	{
+		margin-top: 32px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) 
+{ 
+	.final-booking
+	{
+		width: 100%;
+		border: 3px solid white;
+		min-height: 250px;
+		box-sizing: border-box;
+		margin-bottom: 8px;
+		background-image: url(../img/about/about.png);
+		background-size:cover;
+		background-position:center;
+		background-repeat:no-repeat;
+	}
+
+	.header-booking-final
+	{
+		padding: 25px;
+		padding-left: 80px;
+		padding-right: 80px;
+	}
+
+	.header-booking-final h1
+	{
+		font-size: 20px;
+		font-style: italic;
+		color: #E62A3D;
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: 0;
+	}
+
+	.final-booking-row
+	{
+		height: 70px;
+	}
+
+	.pertama
+	{
+		padding: 0;
+		width: 55px;
+		height: 55px;
+		background-color: #E62A3D;
+	}
+
+	.kedua
+	{
+		padding: 0;
+		width: 55px;
+		height: 55px;
+		background-color: grey;
+	}
+
+	.ketiga
+	{
+		padding: 0;
+		width: 55px;
+		height: 55px;
+		background-color: grey;
+	}
+
+	.garis-booking1
+	{
+		padding: 0;
+		width: 75px;
+		height: 8px;
+		background-color: grey;
+	}
+	
+	.garis-booking2
+	{
+		padding: 0;
+		width: 75px;
+		height: 8px;
+		background-color: grey;
+	}
+
+	.angka
+	{
+		font-size: 20px;
+		font-weight: bold;
+		color: white;
+		margin-top: 15.5px;
+		margin-bottom: 15.5px;
+	}
+
+	.final-booking-row-content
+	{
+		min-height: 250px;
+		padding: 35px;
+	}
+
+	.form-pasien
+	{
+		margin-left: 15px;
+		margin-bottom: 0;
+		font-size: 16px;
+		font-style: italic;
+		color: #E62A3D;
+		font-weight: bold;
+	}
+
+	.form-pasien-p
+	{
+		margin-left: 15px;
+		font-size: 15px;
+	}
+
+	.garis-content
+	{
+		border: 0 solid #E62A3D;
+		border-width: 1px 0 0 0;
+		border-radius: 20px;
+		height: 30px;
+		margin-bottom: 0;
+	}
+
+	.garis-content:before
+	{
+		display: block;
+		content: "";
+		margin-top: -31px;
+		border: 0 solid #E62A3D;
+		border-width: 0 0 1px 0;
+		border-radius: 20px;
+		height: 30px;
+	}
+
+	.padding-booking
+	{
+		padding: 15px;
+		padding-top: 0;
+	}
+
+	.j-k-margin
+	{
+		margin-top: 32px;
+	}
+
+	.label-font-size
+	{
+		font-size: 14px;
+	}
+
+	.input-size
+	{
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767px) 
+{ 
+	.final-booking
+	{
+		width: 100%;
+		border: 3px solid white;
+		min-height: 250px;
+		box-sizing: border-box;
+		margin-bottom: 8px;
+		background-image: url(../img/about/about.png);
+		background-size:cover;
+		background-position:center;
+		background-repeat:no-repeat;
+	}
+
+	.header-booking-final
+	{
+		padding: 25px;
+		padding-left: 80px;
+		padding-right: 80px;
+	}
+
+	.header-booking-final h1
+	{
+		font-size: 20px;
+		font-style: italic;
+		color: #E62A3D;
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: 0;
+	}
+
+	.final-booking-row
+	{
+		height: 70px;
+	}
+
+	.pertama
+	{
+		padding: 0;
+		width: 55px;
+		height: 55px;
+		background-color: #E62A3D;
+	}
+
+	.kedua
+	{
+		padding: 0;
+		width: 55px;
+		height: 55px;
+		background-color: grey;
+	}
+
+	.ketiga
+	{
+		padding: 0;
+		width: 55px;
+		height: 55px;
+		background-color: grey;
+	}
+
+	.garis-booking1
+	{
+		padding: 0;
+		width: 75px;
+		height: 8px;
+		background-color: grey;
+	}
+
+	.garis-booking2
+	{
+		padding: 0;
+		width: 75px;
+		height: 8px;
+		background-color: grey;
+	}
+
+	.angka
+	{
+		font-size: 20px;
+		font-weight: bold;
+		color: white;
+		margin-top: 15.5px;
+		margin-bottom: 15.5px;
+	}
+
+	.final-booking-row-content
+	{
+		min-height: 250px;
+		padding: 20px;
+	}
+
+	.form-pasien
+	{
+		margin-left: 15px;
+		margin-bottom: 0;
+		font-size: 16px;
+		font-style: italic;
+		color: #E62A3D;
+		font-weight: bold;
+	}
+
+	.form-pasien-p
+	{
+		margin-left: 15px;
+		font-size: 15px;
+	}
+
+	.garis-content
+	{
+		border: 0 solid #E62A3D;
+		border-width: 1px 0 0 0;
+		border-radius: 20px;
+		height: 30px;
+		margin-bottom: 0;
+	}
+
+	.garis-content:before
+	{
+		display: block;
+		content: "";
+		margin-top: -31px;
+		border: 0 solid #E62A3D;
+		border-width: 0 0 1px 0;
+		border-radius: 20px;
+		height: 30px;
+	}
+
+	.padding-booking
+	{
+		padding: 5px;
+		padding-top: 0;
+	}
+
+	.j-k-margin
+	{
+		margin-top: 32px;
+	}
+
+	.label-font-size
+	{
+		font-size: 14px;
+	}
+
+	.input-size
+	{
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 575px) 
+{ 
+	.final-booking
+	{
+		width: 100%;
+		border: 3px solid white;
+		min-height: 250px;
+		box-sizing: border-box;
+		margin-bottom: 8px;
+		background-image: url(../img/about/about.png);
+		background-size:cover;
+		background-position:center;
+		background-repeat:no-repeat;
+	}
+
+	.header-booking-final
+	{
+		padding: 25px;
+		padding-left: 80px;
+		padding-right: 80px;
+	}
+
+	.header-booking-final h1
+	{
+		font-size: 20px;
+		font-style: italic;
+		color: #E62A3D;
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: 0;
+	}
+
+	.final-booking-row
+	{
+		height: 70px;
+	}
+
+	.pertama
+	{
+		padding: 0;
+		width: 55px;
+		height: 55px;
+		background-color: #E62A3D;
+	}
+
+	.kedua
+	{
+		padding: 0;
+		width: 55px;
+		height: 55px;
+		background-color: grey;
+	}
+
+	.ketiga
+	{
+		padding: 0;
+		width: 55px;
+		height: 55px;
+		background-color: grey;
+	}
+
+	.garis-booking1
+	{
+		padding: 0;
+		width: 75px;
+		height: 8px;
+		background-color: grey;
+	}
+
+	.garis-booking2
+	{
+		padding: 0;
+		width: 75px;
+		height: 8px;
+		background-color: grey;
+	}
+
+	.angka
+	{
+		font-size: 20px;
+		font-weight: bold;
+		color: white;
+		margin-top: 15.5px;
+		margin-bottom: 15.5px;
+	}
+
+	.final-booking-row-content
+	{
+		min-height: 250px;
+		padding: 5px;
+	}
+
+	.form-pasien
+	{
+		margin-left: 15px;
+		margin-bottom: 0;
+		font-size: 16px;
+		font-style: italic;
+		color: #E62A3D;
+		font-weight: bold;
+	}
+
+	.form-pasien-p
+	{
+		margin-left: 15px;
+		font-size: 15px;
+	}
+
+	.garis-content
+	{
+		border: 0 solid #E62A3D;
+		border-width: 1px 0 0 0;
+		border-radius: 20px;
+		height: 30px;
+		margin-bottom: 0;
+	}
+
+	.garis-content:before
+	{
+		display: block;
+		content: "";
+		margin-top: -31px;
+		border: 0 solid #E62A3D;
+		border-width: 0 0 1px 0;
+		border-radius: 20px;
+		height: 30px;
+	}
+
+	.padding-booking
+	{
+		padding: 15px;
+		padding-top: 0;
+	}
+
+	.label-font-size
+	{
+		font-size: 14px;
+	}
+
+	.input-size
+	{
+		font-size: 14px;
+	}
+
+	.padding-pasien
+	{
+		padding:5px;
+	}
+}

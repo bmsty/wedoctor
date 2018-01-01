@@ -1,0 +1,180 @@
+@media (min-width: 1200px) 
+{ 
+	.about
+	{
+		width: 100%;
+		border: 3px solid white;
+		min-height: 350px;
+		box-sizing: border-box;
+		margin-bottom: 8px;
+		background-image: url(../img/about/about.png);
+		background-size:cover;
+		background-position:center;
+		background-repeat:no-repeat;
+	}
+
+	.about-row
+	{
+		min-height: 350px;
+	}
+
+	.about-colom
+	{
+		padding: 25px;
+		padding-left: 80px;
+		padding-right: 80px;
+	}
+
+	.about-colom h1
+	{
+		margin-bottom: 20px;
+		font-size: 28px;
+		font-style: italic;
+		color: #E62A3D;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.about-colom p
+	{
+	    font-size: 17px;
+	    font-style: italic;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) 
+{ 
+	.about
+	{
+		width: 100%;
+		border: 3px solid white;
+		min-height: 350px;
+		box-sizing: border-box;
+		margin-bottom: 8px;
+		background-image: url(../img/about/about.png);
+		background-size:cover;
+		background-position:center;
+		background-repeat:no-repeat;
+	}
+
+	.about-row
+	{
+		min-height: 350px;
+	}
+
+	.about-colom
+	{
+		padding: 25px;
+		padding-left: 80px;
+		padding-right: 80px;
+	}
+
+	.about-colom h1
+	{
+		margin-bottom: 20px;
+		font-size: 24px;
+		font-style: italic;
+		color: #E62A3D;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.about-colom p
+	{
+	    font-size: 16px;
+	    font-style: italic;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) 
+{ 
+	.about
+	{
+		width: 100%;
+		border: 3px solid white;
+		min-height: 350px;
+		box-sizing: border-box;
+		margin-bottom: 8px;
+		background-image: url(../img/about/about.png);
+		background-size:cover;
+		background-position:center;
+		background-repeat:no-repeat;
+	}
+
+	.about-row
+	{
+		min-height: 350px;
+	}
+
+	.about-colom
+	{
+		padding: 25px;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+
+	.about-colom h1
+	{
+		margin-bottom: 20px;
+		font-size: 20px;
+		font-style: italic;
+		color: #E62A3D;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.about-colom p
+	{
+	    font-size: 15px;
+	    font-style: italic;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767px) 
+{ 
+	 .about
+	{
+		width: 100%;
+		border: 3px solid white;
+		min-height: 350px;
+		box-sizing: border-box;
+		margin-bottom: 8px;
+		background-image: url(../img/about/about.png);
+		background-size:cover;
+		background-position:center;
+		background-repeat:no-repeat;
+	}
+
+	.about-row
+	{
+		min-height: 350px;
+	}
+
+	.about-colom
+	{
+		padding: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.about-colom h1
+	{
+		margin-bottom: 20px;
+		font-size: 18px;
+		font-style: italic;
+		color: #E62A3D;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.about-colom p
+	{
+	    font-size: 13px;
+	    font-style: italic;
+	}
+}
+
+/*@media (max-width: 575px) 
+{ 
+
+}*/

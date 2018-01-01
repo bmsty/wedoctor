@@ -1,0 +1,95 @@
+@media (min-width: 1200px) 
+{ 
+	.width-no
+	{
+		width: 50px;
+	}
+
+	.width-nama
+    {
+		width: 170px;
+    }
+
+    .width-tgl
+    {
+		width: 150px;
+    }
+
+    .width-jk
+    {
+		width: 130px;
+    }
+    
+    .width-alamat
+    {
+		width: 150px;
+    }
+    
+    .width-riwayat
+    {
+		width: 180px;
+    }
+
+    .width-tglobt
+    {
+		width: 160px;
+    }
+
+    .width-dokter
+    {
+		width: 300px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) 
+{ 
+	 .width-no
+	{
+		width: 50px;
+	}
+
+	.width-nama
+    {
+		width: 170px;
+    }
+
+    .width-tgl
+    {
+		width: 150px;
+    }
+
+    .width-jk
+    {
+		width: 130px;
+    }
+    
+    .width-alamat
+    {
+		width: 150px;
+    }
+    
+    .width-riwayat
+    {
+		width: 180px;
+    }
+
+    .width-tglobt
+    {
+		width: 160px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) 
+{ 
+	 
+}
+
+@media (min-width: 576px) and (max-width: 767px) 
+{ 
+	 
+}
+
+@media (max-width: 575px) 
+{ 
+	 
+}

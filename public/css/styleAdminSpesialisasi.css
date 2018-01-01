@@ -1,0 +1,201 @@
+@media (min-width: 1200px) 
+{ 
+	.tombolnya
+	{
+		width:123px;
+	}
+
+	.width-no
+	{
+		width: 50px;
+	}
+
+	.width-nama
+	{
+		width: 200px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) 
+{ 
+	.tombolnya
+	{
+		width:80px;
+	}
+
+	.about-colom h1
+	{
+		font-size: 20px;
+		margin-bottom: 0;
+	}
+
+	th
+	{
+		font-size: 15px;
+	}
+
+	td
+	{
+		font-size: 14px;
+	}
+
+	.width-no
+	{
+		width: 50px;
+	}
+
+	.width-nama
+	{
+		width: 160px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) 
+{ 
+	.tombolnya
+	{
+		width:80px;
+	}
+
+	.about-colom h1
+	{
+		margin-bottom: 0;
+		font-size: 17px;
+	}
+
+	.about
+	{
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	th
+	{
+		font-size: 14px;
+	}
+
+	td
+	{
+		font-size: 13px;
+	}
+
+	.width-no
+	{
+		width: 30px;
+	}
+
+	.width-nama
+	{
+		width: 160px;
+	}
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) 
+{ 
+	.paddingnya
+	{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.about-colom
+	{
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.tombolnya
+	{
+		width:80px;
+	}
+
+	.about-colom h1
+	{
+		margin-bottom: 0;
+		font-size: 16px;
+	}
+
+	.about
+	{
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	th
+	{
+		font-size: 13px;
+	}
+
+	td
+	{
+		font-size: 12px;
+	}
+
+	.width-no
+	{
+		width: 30px;
+	}
+
+	.width-nama
+	{
+		width: 140px;
+	}
+}
+
+@media (max-width: 575px) 
+{ 
+	.paddingnya
+	{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.about-colom
+	{
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.tombolnya
+	{
+		width:80px;
+	}
+
+	.about-colom h1
+	{
+		margin-bottom: 0;
+		font-size: 16px;
+	}
+
+	.about
+	{
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	th
+	{
+		font-size: 13px;
+	}
+
+	td
+	{
+		font-size: 12px;
+	}
+
+	.width-no
+	{
+		min-width: 30px;
+	}
+
+	.width-nama
+	{
+		min-width: 140px;
+	}
+
+	.width-deskripsi
+	{
+		min-width: 160px;
+	}
+}

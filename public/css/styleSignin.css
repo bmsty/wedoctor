@@ -1,0 +1,330 @@
+.btn
+{
+	border: 1px solid black;
+}
+
+@media (min-width: 1200px) 
+{ 
+	.signin
+	{
+		width: 100%;
+		border: 5px solid white;
+		height: 500px;
+		box-sizing: border-box;
+		margin-bottom: 8px;
+	}
+
+	.signin-row
+	{
+		height: 500px;
+	}
+
+	.signin-colom
+	{
+		margin: auto;
+		width: 550px;
+		border: 15px dotted white;
+		padding: 0;
+	}
+
+	.signin-colom h1
+	{
+		margin-top: 20px;
+		margin-bottom: 20px;
+		font-size: 30px;
+		font-style: italic;
+		color: #E62A3D;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	hr
+	{
+		width: 100%;
+		border-top: 15px dotted white;
+	}
+
+	.signin-colom p
+	{
+	    font-size: 17px;
+	    font-style: italic;
+	}
+
+	.form-margin-atas
+	{
+		margin-top: 40px;
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+
+	.form-margin-bawah
+	{
+		margin-bottom: 40px;
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+
+	.button-margin
+	{
+		margin-bottom: 40px;
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) 
+{ 
+	.signin
+	{
+		width: 100%;
+		border: 5px solid white;
+		height: 500px;
+		box-sizing: border-box;
+		margin-bottom: 8px;
+	}
+
+	.signin-row
+	{
+		height: 500px;
+	}
+
+	.signin-colom
+	{
+		margin: auto;
+		width: 480px;
+		border: 15px dotted white;
+		padding: 0;
+	}
+
+	.signin-colom h1
+	{
+		margin-top: 15px;
+		margin-bottom: 15px;
+		font-size: 24px;
+		font-style: italic;
+		color: #E62A3D;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	hr
+	{
+		width: 100%;
+		border-top: 15px dotted white;
+	}
+
+	.form-margin-atas
+	{
+		margin-top: 30px;
+		margin-left:30px;
+		margin-right: 30px;
+	}
+
+	.form-margin-bawah
+	{
+		margin-bottom: 30px;
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+
+	.button-margin
+	{
+		margin-bottom: 30px;
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) 
+{ 
+	.signin
+	{
+		width: 100%;
+		border: 5px solid white;
+		height: 500px;
+		box-sizing: border-box;
+		margin-bottom: 8px;
+	}
+
+	.signin-row
+	{
+		height: 500px;
+	}
+
+	.signin-colom
+	{
+		margin: auto;
+		width: 430px;
+		border: 15px dotted white;
+		padding: 0;
+	}
+
+	.signin-colom h1
+	{
+		margin-top: 15px;
+		margin-bottom: 15px;
+		font-size: 24px;
+		font-style: italic;
+		color: #E62A3D;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	hr
+	{
+		width: 100%;
+		border-top: 15px dotted white;
+	}
+
+	.form-margin-atas
+	{
+		margin-top: 20px;
+		margin-left:20px;
+		margin-right: 20px;
+	}
+
+	.form-margin-bawah
+	{
+		margin-bottom: 20px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	.button-margin
+	{
+		margin-bottom: 20px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767px) 
+{ 
+	 .signin
+	{
+		width: 100%;
+		border: 5px solid white;
+		height: 500px;
+		box-sizing: border-box;
+		margin-bottom: 8px;
+	}
+
+	.signin-row
+	{
+		height: 500px;
+	}
+
+	.signin-colom
+	{
+		margin: auto;
+		width: 380px;
+		border: 15px dotted white;
+		padding: 0;
+	}
+
+	.signin-colom h1
+	{
+		margin-top: 15px;
+		margin-bottom: 15px;
+		font-size: 21px;
+		font-style: italic;
+		color: #E62A3D;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	hr
+	{
+		width: 100%;
+		border-top: 15px dotted white;
+	}
+
+	.form-margin-atas
+	{
+		margin-top: 10px;
+		margin-left:10px;
+		margin-right:10px;
+	}
+
+	.form-margin-bawah
+	{
+		margin-bottom: 10px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.button-margin
+	{
+		margin-bottom: 10px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+
+@media (max-width: 575px) 
+{ 
+	.signin
+	{
+		width: 100%;
+		border: 5px solid white;
+		min-height: 100px;
+		box-sizing: border-box;
+		margin-bottom: 8px;
+	}
+
+	.signin-row
+	{
+		min-height: 35	0px;
+	}
+
+	.signin-colom
+	{
+		margin: auto;
+		width: 380px;
+		padding: 0;
+	}
+
+	.signin-colom h1
+	{
+		margin-top: 15px;
+		margin-bottom: 15px;
+		font-size: 20px;
+		font-style: italic;
+		color: #E62A3D;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.form-margin-atas
+	{
+		margin-top: 10px;
+		margin-left:10px;
+		margin-right:10px;
+	}
+
+	.form-margin-bawah
+	{
+		margin-bottom: 10px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.button-margin
+	{
+		margin-bottom: 10px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.btn
+	{	
+		padding: 4px;
+		font-size: 14px;
+	}
+
+	.form-control
+	{
+		height: 32px;
+		font-size: 14px;
+	}
+}

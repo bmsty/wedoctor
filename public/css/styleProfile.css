@@ -1,0 +1,51 @@
+.btn-outline-dark
+{
+	color: #E62A3D;
+	border-color: #E62A3D;
+}
+
+.btn-outline-dark:hover
+{
+	color: #E62A3D;
+	border-color: #E62A3D;
+	background-color: white;
+}
+
+.btn-outline-info
+{
+	color: #E62A3D;
+	width: 100%;
+	border: none;
+	height: 42.9px;
+}
+
+.btn-outline-info:hover
+{
+	border: none;
+	background-color: #E62A3D;
+}
+
+.spesialisasi-background-title
+{
+	background-image: url(../img/booking/spesialisasi/background_title.png);
+	font-size: 24px;
+}
+
+.spesialisasi-background
+{
+	background-image: url(../img/booking/spesialisasi/background.png);
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.card-header
+{
+	padding:0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.card-footer
+{
+	padding: 0;
+}
